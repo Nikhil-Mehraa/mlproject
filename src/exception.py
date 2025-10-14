@@ -1,6 +1,6 @@
 import sys #any exception will be there, sys will have the information
 import logging
-import logger
+from src.logger import logging
 
 def error_message_detail(error, error_detail:sys):
     _,_, exc_tb = error_detail.exc_info()
